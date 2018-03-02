@@ -1,7 +1,7 @@
 # BinaryHeap
 
 A simple Java implementation of a binary Min-Heap.
-The Min-Heap is generic, so it works with every type that either implements Comparable, <br>
+The Min-Heap is generic, so it works with every type that either implements Comparable,
 or is Subtype of another type that implements Comparable.<br>
 
 class BinaryMinHeap <T extends Comparable<? super T>>
