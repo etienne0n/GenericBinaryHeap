@@ -1,6 +1,7 @@
 package main;
 
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
 
 /*
@@ -85,7 +86,7 @@ public class BinaryMinHeap<T extends Comparable<? super T>> {
 		return retVal;
 	}
 
-	public void buildHeap(List<? extends T> keys) {
+	public void buildHeap(Collection<? extends T> keys) {
 		if (keys == null || keys.size() == 0) {
 			throw new IllegalArgumentException("Argument must not be empty or null.");
 		}

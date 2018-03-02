@@ -11,7 +11,7 @@ class BinaryMinHeap <T extends Comparable<? super T>>
 void size()<br>
 void insert(T elem)<br>
 T extractMin()<br>
-void buildHeap(List&lt;? extends T&gt; keys)<br>
+void buildHeap(Collection&lt;? extends T&gt; keys)<br>
 
 ---
 
