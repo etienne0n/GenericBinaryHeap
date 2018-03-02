@@ -14,7 +14,7 @@ void minChild(int i)<br>
 void size()<br>
 void insert(T elem)<br>
 int extractMin()<br>
-void buildHeap(List&lt;T&gt; keys)<br>
+void buildHeap(List&lt;? extends T&gt; keys)<br>
 
 Internally the binary tree is just represented as an ArrayList, where the children of a node with index i have the indices 2n and 2n+1.<br>
 A more detailed explanation can be found here: http://interactivepython.org/runestone/static/pythonds/Trees/BinaryHeapImplementation.html
