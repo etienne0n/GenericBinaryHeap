@@ -13,7 +13,7 @@ void insert(T elem)<br>
 T extractMin()<br>
 void buildHeap(List&lt;? extends T&gt; keys)<br>
 
-The Binary Min-Heap guarantees that the methods insert and extractMin work in O(log n).
+The Binary Min-Heap guarantees that the methods insert and extractMin have a computing complexity of O(log n).
 
 Internally the binary tree is just represented as an ArrayList, where the children of a node with index i have the indices 2n and 2n+1.<br>
 A more detailed explanation can be found here: http://interactivepython.org/runestone/static/pythonds/Trees/BinaryHeapImplementation.html
