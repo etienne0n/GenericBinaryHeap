@@ -15,7 +15,7 @@ void buildHeap(List&lt;? extends T&gt; keys)<br>
 
 ---
 
-The method extractMin has a runtime of O(log n). The method buildHeap has a runtime of O(n).
+The method extractMin has a runtime of <b>O(log n)</b>. The method buildHeap has a runtime of <b>O(n)</b>.
 Internally the binary tree is just represented as an ArrayList, where the children of a node with index i have the indices 2n and 2n+1.<br>
 A more detailed explanation can be found here: http://interactivepython.org/runestone/static/pythonds/Trees/BinaryHeapImplementation.html
 
