@@ -13,6 +13,8 @@ void insert(T elem)<br>
 T extractMin()<br>
 void buildHeap(List&lt;? extends T&gt; keys)<br>
 
+---
+
 The Min-Heap guarantees a runtime of O(log n) for the method extractMin().
 
 Internally the binary tree is just represented as an ArrayList, where the children of a node with index i have the indices 2n and 2n+1.<br>
