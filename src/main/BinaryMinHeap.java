@@ -24,11 +24,17 @@ public class BinaryMinHeap<T extends Comparable<? super T>> {
 
 	private List<T> heapList = new ArrayList<>();
 	private int currentSize;
-	private static final Object NO_ELEM = null;
 
-	@SuppressWarnings("unchecked")
+	/**
+	 * The empty binary heap has a single {@code null}
+	 * as the first element of heapList and this position is not used. 
+	 * It is there so that simple integer division can be used in the methods.<br>
+	 * It ensures that the children of an element at position i are always at position 2i and 2i+1.<br>
+	 * So the index of the parent of an element can always be computed with a single integer division by 2.
+	 * 
+	 */
 	public BinaryMinHeap() {
-		heapList.add((T) NO_ELEM);
+		heapList.add(null);
 		currentSize = 0;
 	}
 
